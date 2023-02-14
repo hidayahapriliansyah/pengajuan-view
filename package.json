@@ -8,5 +8,11 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.2.6"
+  },
+  "dependencies": {
+    "daisyui": "^2.50.1"
+  }
 }
