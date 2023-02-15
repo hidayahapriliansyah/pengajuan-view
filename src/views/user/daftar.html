@@ -8,6 +8,48 @@
   <title>Daftar</title>
 </head>
 <body>
-  Daftar coy
+  <main>
+    <section class="flex justify-center items-center w-full h-min-[100vh]">
+      <form class="flex flex-col items-center justify-center min-w-[50%] rounded-lg">
+        <h1 class="block my-3 font-bold text-2xl">Daftar User</h1>
+        <div class="mb-3 w-[60%]">
+          <label for="name">Nama (Sesuai KTP)</label>
+          <br>
+          <input type="text" id="name" class="input input-bordered input-info input-md w-full my-2" autofocus required
+          class="p-1">
+          <div><p class="text-red-500">Nama wajib diisi</p></div>
+        </div>
+        <div class="mb-3 w-[60%]">
+          <label for="username">Username</label>
+          <br>
+          <input type="text" id="username" class="input input-bordered input-info input-md w-full my-2" required>
+          <div><p class="text-red-500">Username wajib diisi</p></div>
+        </div>
+        <div class="mb-3 w-[60%]">
+          <label for="email">Email</label>
+          <br>
+          <input type="email" id="email" class="input input-bordered input-info input-md w-full my-2" required>
+          <!-- <div><p class="text-red-500">Email wajib diisi</p></div> -->
+        </div>
+        <div class="mb-3 w-[60%]">
+          <label for="password">Password</label>
+          <br>
+          <input type="password" id="password" class="input input-bordered input-info input-md w-full my-2" required>
+          <div><p class="text-red-500">Password wajib diisi</p></div>
+        </div>
+        <div class="mb-3 w-[60%]">
+          <label for="con-password">Konfirmasi Password</label>
+          <br>
+          <input type="password" id="con-password" class="input input-bordered input-info input-md w-full my-2" required>
+          <div><p class="text-red-500">Konfirmasi tidak cocok</p></div>
+        </div>
+        <div>
+          <button type="submit" class="py-2 px-5 text-white bg-sky-500 rounded-lg">Daftar</button>
+        </div>
+      </form>
+    </section>
+  </main>
+
+  <script src="../../../public/flowbite.min.js"></script>
 </body>
 </html>
